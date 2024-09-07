@@ -15,7 +15,7 @@ def add_task():
         tasks.append((var, checkbox))
         entry.delete(0, tk.END)
     else:
-        messagebox.showwarning("warning!", "you must enter a task.")
+        messagebox.showwarning("⚠︎ warning! ⚠︎", "you must enter a task.")
 
 # marks task as completed
 # when completed, task gets striked through and disappears
